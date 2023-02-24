@@ -1,0 +1,16 @@
+.footer__item {
+    display: flex;
+    margin-right: 18px;
+    justify-content: space-around;
+    text-align: center;
+  }
+  
+  .footer__item:last-of-type {
+    margin: 0;
+  }
+  
+  @media screen and (max-width: 568px) {
+    .footer__item {
+      margin: 0 0 32px;
+    }
+}

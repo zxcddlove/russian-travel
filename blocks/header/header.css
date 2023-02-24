@@ -1,0 +1,14 @@
+.header {
+  padding: 28px 48px 0;
+  max-width: 1184px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+  .header {
+    padding: 28px calc((100vw - 768px) / (1024 - 768)*(48 - 24) + 24px) 0;
+  }
+}
