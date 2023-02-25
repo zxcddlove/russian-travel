@@ -13,9 +13,8 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media (max-width: 768px) {
   .header {
-    margin: 16px 16px 0;
-    max-height: 42px;
+    padding: calc((100vw - 320px) / (768 - 320)*(28 - 16) + 16px) calc((100vw - 320px) / (768 - 320)*(24 - 16) + 16px) 0;
   }
 }

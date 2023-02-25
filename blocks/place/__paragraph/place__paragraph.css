@@ -2,21 +2,22 @@
     font-size: 18px;
     line-height: 163%;
     font-weight: 400;
-    margin: 0 auto;
+    margin: 0 auto 26px;
 }
 
-.place__paragraph:nth-of-type(1n+2) {
-    margin-top: 25px;
-}
+.place__paragraph:last-of-type {
+    margin-bottom: 0;
+  }
 
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 984px) {
     .place__paragraph {
-        font-size: 16px;
+      font-size: 16px;
+      margin: 0 auto 25px;
     }
-}
-
-@media screen and (max-width: 568px) {
+  }
+  
+  @media screen and (max-width: 568px) {
     .place__paragraph {
-        width: 100%;
+      padding: 0 16px;
     }
-}
+  }
