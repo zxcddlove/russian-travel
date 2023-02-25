@@ -5,7 +5,7 @@
     margin: 0 auto;
     align-items: center;
   }
-  
+
   @media screen and (max-width: 1140px) {
     .places {
       max-width: calc(100% - 2 * 48px);
@@ -17,7 +17,13 @@
       max-width: calc(100% - 2 * 24px);
     }
   }
-  
+
+  @media screen and (max-width: 768px) {
+    .places{
+    margin: 0;
+    }
+  }
+
   @media screen and (max-width: 568px) {
     .places {
       max-width: 100%;

@@ -1,5 +1,5 @@
 # Проект: Путешествие по России
-# ["Научиться учиться"](https://github.com/zxcddlove/how-to-learn)
+github Pages (https://zxcddlove.github.io/russian-travel/)
 
 ## Описание:
 Закрепление на практике создания грид-контейнеров, добавления особых стилей страницы и функция calc()

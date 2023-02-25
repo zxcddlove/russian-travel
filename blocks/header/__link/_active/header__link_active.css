@@ -1,4 +1,4 @@
-.header__link {
+.header__link_active {
   padding: 0;
   color: #fff;
   text-decoration: none;
@@ -9,15 +9,16 @@
   display: flex;
   align-items: end;
   transition: opacity .1s ease-in-out;
+  text-decoration: underline;
 }
 
-.header__link:hover {
+.header__link_active:hover {
   cursor: pointer;
   opacity: 0.8;
 }
 
 @media (max-width: 768px) {
-  .header__link {
+  .header__link_active {
     font-size: calc(18px + (100vw - 320px) / (768 - 320)*(24 - 18));
     line-height: 1.11;
   }

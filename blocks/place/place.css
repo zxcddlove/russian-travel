@@ -20,6 +20,7 @@
         width: 93.75%;
         grid-template-columns: 340px auto;
         gap: 48px 28px;
+        margin: 0;
     }
 }
 
@@ -30,3 +31,9 @@
         gap: 32px 0;
     }
 }
+
+@media screen and (max-width: 320px) {
+    .header {
+      margin: 0 16px 
+    }
+  }
