@@ -14,3 +14,7 @@
       margin: 0 0 32px;
     }
 }
+
+.footer__item:last-of-type {
+  margin-bottom: 48px;
+}
